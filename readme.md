@@ -138,3 +138,7 @@ erDiagram
 2. Explore the schema and test the triggers and constraints by performing operations like inserts, updates, and deletes.
 
 Have fun!
+
+## Report
+
+The full design rationale — assumptions, datatype choices, constraints, denormalization, triggers, stored procedures, and rights — is written up in [docs/rapport_databaskonstruktion.pdf](docs/rapport_databaskonstruktion.pdf).
