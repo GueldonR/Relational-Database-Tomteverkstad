@@ -1,0 +1,11 @@
+services:
+  redis:
+    image:  mcr.microsoft.com/mssql/server:2025-latest
+    volumes:
+      - sql-data:/data
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "EnterpriseDeveloper"
+
+volumes:
+  sql-data:
